@@ -1,0 +1,33 @@
+.btn
+{
+    background-color: #577D86 ;
+}
+
+html,#root,body{
+  height: 100%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+body {
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-content{
+  flex: 1;
+  min-height: 75vh;
+}
+
+svg{
+  height: 1.5em !important;
+  width: 2.5em !important;
+  /* color: black !important; */
+}
+.loader{
+  /* background-color: green; */
+  color: green !important;
+}
